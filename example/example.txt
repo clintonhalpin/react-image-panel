@@ -1,0 +1,9 @@
+<Panel  
+    rootClass = 'panel', // string - changes root className
+    panelInnerYPosition = '', // string - adds a modifier on inner [top|bottom]
+    image, // string - url or path
+    title = '', // string
+    description = '', string
+    height = 300, // number - height
+    linkTo = '/', // string - React Router route ie. /users
+    loading /> // bool - toggles loading state
