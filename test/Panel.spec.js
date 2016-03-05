@@ -21,7 +21,7 @@ describe('components', () => {
   describe('Panel', () => {
     it('should render', () => {
       const { output } = setup();
-      expect(output.type).toBe('div');
+      expect(output.type).toExist();
     });
   })
 })
