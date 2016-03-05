@@ -1,20 +1,21 @@
-# react-component-boilerplate 
-A nice setup for creating react components that can be consumed as NPM modules. [example](http://clintonhalpin.github.io/react-component-boilerplate/example/)
+# react-image-panel 
+[![npm version](https://badge.fury.io/js/react-image-panel.svg)](https://badge.fury.io/js/react-image-panel)
+A small module for showing image + title + description in a panel [example](http://clintonhalpin.github.io/react-image-panel/example/)
 
-### creating a component
+### get started
 ```shell
-git clone git@github.com:clintonhalpin/react-component-boilerplate.git YOUR_COMPONENT_NAME
-
-# Update the following exports and folder/file names with your component name eg. MyComponent -> Slider
-package.json, src/MyComponent, src/MyComponent/index.js, example/index.js, README.md
-
-# Now work on your component
-# When complete run
-npm run build
-npm publish
+npm i react-image-panel --save
 ```
 
-Users will be able to consume your component by running `npm install YOUR_COMPONENT_NAME --save` and importing it! 
+Integrating component
+```javascript
+import { Panel } from 'react-image-panel'
+
+// <Panel />
+```
+
+Adding css!
+You can find all of the css for this module in `./node_modules/react-image-panel/src/panel.css`
 
 ### development
 Run's webpack and starts a tiny express server for testing
