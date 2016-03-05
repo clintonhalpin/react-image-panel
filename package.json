@@ -13,6 +13,7 @@
     "build:commonjs": "BABEL_ENV=commonjs babel src --out-dir lib",
     "build": "npm run build:example && npm run build:commonjs",
     "test": "NODE_ENV=production mocha --compilers js:babel-core/register --recursive --require ./test/setup.js",
+    "deploy": "npm run test && npm run build",
     "test:watch": "npm test --watch",
     "clean": "rm -rf dist"
   },

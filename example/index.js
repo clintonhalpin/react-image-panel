@@ -11,7 +11,7 @@ export class Root extends Component {
         <div className="container">
             <div className="mw mx-auto mt2">
                 <h1 className="m0 mb1">react-image-panel</h1>
-                <p className="m0 gray">A reusable panel component! Check it out on <a className="green" href="https://github.com/clintonhalpin/react-panel">Github</a></p>
+                <p className="m0 gray">A reusable panel component! Check it out on <a className="green" href="https://github.com/clintonhalpin/react-image-panel">Github</a></p>
             </div>
             <div className="mw mx-auto p2">
                 <h3 className="p1">Demo</h3>
