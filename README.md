@@ -1,6 +1,9 @@
 # react-image-panel 
 [![npm version](https://badge.fury.io/js/react-image-panel.svg)](https://badge.fury.io/js/react-image-panel)
-A small module for showing image + title + description in a panel [example](http://clintonhalpin.github.io/react-image-panel/example/)
+
+A small module for showing image + title + description in a panel [Demo](http://clintonhalpin.github.io/react-image-panel/example/)
+
+![screen shot 2016-03-05 at 2 14 29 pm](https://cloud.githubusercontent.com/assets/523933/13549840/9e3462ec-e2dc-11e5-829d-505a75996c21.png)
 
 ### get started
 ```shell
