@@ -8,6 +8,8 @@ npm run deploy
 git config user.name "Travis CI"
 git config user.email "clintonhalpin@gmail.com"
 
+git init
+
 # The first and only commit to this new Git repo contains all the
 # files present with the commit message "Deploy to GitHub Pages".
 git add .
