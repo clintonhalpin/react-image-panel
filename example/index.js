@@ -28,19 +28,19 @@ export class Root extends Component {
                     panelInnerYPosition="top"/>
             </div>
             <div className="sm-col sm-col-9 p1">
-            <Panel 
-                title="Foggy Forest"
-                description="The fog was thick"
-                height={450}
-                image="https://unsplash.it/900/700/?image=1021"/>
+                <Panel 
+                    title="Foggy Forest"
+                    description="The fog was thick"
+                    height={450}
+                    image="https://unsplash.it/900/700/?image=1021"/>
             </div>
             <div className="sm-col sm-col-3 p1">
-            <Panel 
-                title="Drove through a mountain"
-                description="nbd"
-                height={450}
-                loading={true}
-                image="https://unsplash.it/900/700/?image=772"/>
+                <Panel 
+                    title="Drove through a mountain"
+                    description="nbd"
+                    height={450}
+                    loading={true}
+                    image="https://unsplash.it/900/700/?image=772"/>
             </div>
             <div className="sm-col sm-col-12 p1">
                 <Panel 
