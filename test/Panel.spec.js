@@ -23,5 +23,8 @@ describe('components', () => {
       const { output } = setup();
       expect(output.type).toExist();
     });
+    it('should have more tests', () => {
+      expect(true).toBe(false);
+    });
   })
 })
